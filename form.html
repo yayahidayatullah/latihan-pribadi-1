@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Page</title>
+</head>
+<body>
+	<h1>Buat Account Baru!</h1>
+	<h3>Sign Up Form</h3>
+	<form action="welcome.html" method="POST" target="_self">
+		<label for="first-name">First Name:</label>
+		<br>
+		<input type="text" id="firs-tname">
+		<br><br>
+		<label for="lastname">Last Name:</label>
+		<br>
+		<input type="text" id="lastname">
+		<br><br>
+
+		<div>Gender:</div>
+		<input type="radio" id="male" name="gender">
+  		<label for="male">Male</label>
+  		<br>
+		<input type="radio" id="female" name="gender">
+  		<label for="female">Female</label>
+  		<br>
+		<input type="radio" id="other" name="gender">
+  		<label for="other">Other</label>
+  		<br><br>
+
+  		<div>Nationality:</div>
+  		<select>
+        <option>Indonesian</option>
+        <option>Singaporean</option>
+  			<option>Malaysian</option>
+        <option>Australian</option>
+  		</select>
+  		<br><br>
+
+  		<div>Language Spoken:</div>
+  		<input type="checkbox" id="Indonesia" name="languagespoken">
+  		<label for="Indonesia">Bahasa Indonesia</label>
+  		<br>
+  		<input type="checkbox" id="English" name="languagespoken">
+  		<label for="English">English</label>
+  		<br>
+  		<input type="checkbox" id="Other" name="languagespoken">
+  		<label for="Other">Other</label>
+  		<br><br>
+
+  		<div>Bio</div>
+  		<textarea></textarea>
+  		<br>
+  		<button type="submit" name="SignUp">Sign Up</button>
+	</form>
+	
+</body>
+</html>
